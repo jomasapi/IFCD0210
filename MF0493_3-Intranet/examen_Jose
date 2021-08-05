@@ -1,1 +1,15 @@
+## Clonado de repositorio en linux
 
+focyl@focyl-VirtualBox:~$ sudo git clone https://github.com/jomasapi/IFCD0210.git
+Clonando en 'IFCD0210'...
+remote: Enumerating objects: 55, done.
+remote: Counting objects: 100% (55/55), done.
+remote: Compressing objects: 100% (41/41), done.
+remote: Total 55 (delta 5), reused 41 (delta 2), pack-reused 0
+Desempaquetando objetos: 100% (55/55), listo.
+focyl@focyl-VirtualBox:~$ cd IFCD0210
+focyl@focyl-VirtualBox:~/IFCD0210$ ls
+LICENSE  MF0491_3_Cliente  MF0492_3_ExamenJose  MF0493_3-Intranet  README.md
+focyl@focyl-VirtualBox:~/IFCD0210$ docker rm MF0491_3_Cliente
+focyl@focyl-VirtualBox:~/IFCD0210$ cd MF0493_3-Intranet
+focyl@focyl-VirtualBox:~/IFCD0210/MF0493_3-Intranet$
